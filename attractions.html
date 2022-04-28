@@ -1,0 +1,186 @@
+<!Doctype html>
+<html>
+
+<head>
+  <title>Korea Attraction</title>
+  <link rel="stylesheet" type="text/css" href="attractions.css">
+  <script src="scrollFunc.js"></script>
+
+  <div class="bar1">
+    <a href="./AboutWeb.html"><b>AboutK-Vay</b></a>
+    <a href="./AboutKorea.html"><b>AboutKorea</b></a>
+    <a href="./food.html"><b>FOOD</b></a>
+    <a href="./transportation.html"><b>TRANSPORTATION</b></a>
+    <a href="./attractions.html"><b>ATTRACTIONS</b></a>
+    <a href="./KVAYHOME.html"><b>HOME</b></a>
+  </div>
+
+</head>
+<body onclick="money">
+  <div class="container">
+    <img id="im" src="https://i.imgur.com/0MR9J9U.gif?noredirect" alt="main" style="width:100%;">
+    <div class="centered"><h1>Attraction Essentials</h1></div>
+  </div>
+
+  <div class="FoodList" id="food">
+    <div id="w">EXCHANGE (USD=>KRW)
+      <div id ="m"></div>
+      <button id="bu" onclick="up()">+1$</button>
+    </div>
+    <div class="place">
+      <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2020/11/08/103835976.3.jpg" alt="ramen" style="width:40%">
+      <h3>1. Gyeongbokgung Palace, Seoul</h3>
+      <p>Gyeongbokgung Palace was the main royal palace of Joseon Dynasty. Gyeongbokgung Palace is arguably the most beautiful, and remains the largest of all five palaces.
+        Walk around the palace and enjoy the wonderful sight.</p>
+      <button onclick="myFunction1()">More Info</button>
+      <div id="myDIV1" style="display: none">
+        <ul>
+          <li>Opened hours: 09:00 - 18:00, Closed on Tuesdays</li>
+          <li>Price: ₩3,000 for age 25-64, Free for people wearing Hanbok</li>
+          <li>Public Transportation: <img src="image/line3.png" width="17px"> Gyeongbokgung Sta.</li>
+          <li>Phone: 02-3700-3900</li>
+        </ul>
+      </div>
+    </div>
+    <div class="place">
+      <img src="https://www.ivisitkorea.com/wp-content/uploads/2019/10/Myeongdong.jpg" alt="kimbap" style="width:40%">
+      <h3>2. Myeongdong, Seoul</h3>
+      <p>Myeongdong is Seoul’s shopping mecca and is a must-see for tourists, but it is not just a shopping destination; Myeongdong is also a hub of commerce, banking and culture with a daytime
+        population of 1.5-2 million. For shoppers there is a mixture of street stalls and retail outlets selling everything from high fashion to casual attire, as well as many Korean cosmetics
+        stores offering high-quality products at competitive prices.</p>
+      <button onclick="myFunction2()">More Info</button>
+      <div id="myDIV2" style="display: none">
+        <ul>
+          <li>Opened hours: Varies by Stores</li>
+          <li>Public Transportation: <img src="image/line4.png" width="17px"> Myeong-dong Sta.</li>
+          <li>Phone: Varies by Stores</li>
+        </ul>
+      </div>
+    </div>
+    <div class="place">
+      <img src="https://res.klook.com/image/upload/c_fill,w_750,h_500,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/dwe0zg8ooirgsblvbocc.webp" alt="kimbap" style="width:40%">
+      <h3>3. N Seoul Tower, Seoul</h3>
+      <p>Namsan Seoul Tower was built in 1969 as Korea's first integrated transmission tower beaming television and radio broadcasts across the capital. Since opening to the public in 1980,
+        it has become a much-loved Seoul landmark. </p>
+        <button onclick="myFunction3()">More Info</button>
+        <div id="myDIV3" style="display: none">
+          <ul>
+            <li>Opened Hours: 10:00 - 23:00</li>
+            <li>Price: ₩11,000</li>
+            <li>Public Transportation: Bus 02 or Bus 04</li>
+          </ul>
+        </div>
+    </div>
+    <div class="place">
+      <img src="https://newsimg.hankookilbo.com/cms/articlerelease/2016/10/03/201610031428139243_1.jpg" alt="kimbap" style="width:40%">
+      <h3>4. Lotte World & Lotte World Tower, Seoul</h3>
+      <p>Lotte World is a major recreation complex in Seoul, South Korea. It consists of the world's largest indoor theme park, an outdoor amusement park called "Magic Island", an artificial
+        island inside a lake linked by monorail, shopping malls, a luxury hotel, a Korean folk museum, sports facilities, and movie theaters. Lotte World Tower is a 556-metre, 123-story skyscraper
+        located nearby.</p>
+        <button onclick="myFunction4()">More Info</button>
+        <div id="myDIV4" style="display: none">
+          <ul>
+            <li>Opened Hours: 10:00 - 21:00</li>
+            <li>Price: ₩56,000 for adult</li>
+            <li>Public Transportation: <img src="image/line2.png" width="17px"> <img src="image/line8.png" width="17px"> Jamsil Sta.</li>
+            <li>Phone: 1661-2000</li>
+          </ul>
+        </div>
+    </div>
+    <div class="place">
+      <img src="https://www.koreanfolk.co.kr/upload/now/PER_MOBILEMAIN_202111081451209003.jpg" alt="kimbap" style="width:40%">
+      <h3>5. Korean Folk Village, Yongin-si, Gyeonggi-do</h3>
+      <p>Korean Folk Village introduces traditional culture from the late Joseon period to both local and international visitors through cultural classes experience, shaman faith, seasonal customs and others. </p>
+      <button onclick="myFunction5()">More Info</button>
+      <div id="myDIV5" style="display: none">
+        <ul>
+          <li>Opened Hours: 10:00 - 19:00</li>
+          <li>Price: ₩22,000 for adult</li>
+          <li>Public Transportation: <b>Bus 5001-1</b> at <img src="image/line9.png" width="17px">Sinnonhyeon Sta., <img src="image/line2.png" width="17px"> <img src="image/DXLine.png" width="17px">Gangnam Sta., <img src="image/line3.png" width="17px"> Yangjae Sta., or <img src="image/DXLine.png" width="17px"> Yangjae Citizen's Forest Sta.</li>
+          <li>Phone: 031-288-0000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="place">
+      <img src="https://dimg.donga.com/wps/NEWS/IMAGE/2016/07/20/79287751.1.jpg" alt="soup" style="width:40%">
+      <h3>6. Haeundae, Busan</h3>
+      <p>Haeundae Beach is an urban beach in Busan, South Korea. Often dubbed one of the country's most famous and popular beaches, it is located in the eponymous Haeundae District.</p>
+      <button onclick="myFunction6()">More Info</button>
+      <div id="myDIV6" style="display: none">
+        <ul>
+          <li>Opened Dates: June - mid September</li>
+          <li>Phone: 051-749-7601</li>
+        </ul>
+      </div>
+    </div>
+    <div class="place">
+      <img src="https://t1.daumcdn.net/cfile/tistory/9976F7485CDCC2F321" alt="streetfood" style="width:40%">
+      <h3>7. Everland, Yongin-si, Gyeonggi-do</h3>
+      <p>Everland is South Korea's largest theme park. Located at the Everland Resort in Yongin, a city in Gyeonggi-do, it receives 5,85 million visitors annually and was ranked nineteenth
+         in the world for amusement park attendance in 2018.</p>
+         <button onclick="myFunction7()">More Info</button>
+         <div id="myDIV7" style="display: none">
+           <ul>
+             <li>Opened Hours: 10:00 - 21:00</li>
+             <li>Price: ₩56,000 for adult</li>
+             <li>Public Transportation: <b>Bus 5002</b> at <img src="image/line9.png" width="17px">Sinnonhyeon Sta., <img src="image/line2.png" width="17px"> <img src="image/DXLine.png" width="17px">Gangnam Sta., <img src="image/line3.png" width="17px"> Yangjae Sta., or <img src="image/DXLine.png" width="17px"> Yangjae Citizen's Forest Sta.</li>
+             <li>Phone: 031-320-5000</li>
+           </ul>
+         </div>
+    </div>
+    <div class="place">
+      <img src="https://www.jeju.go.kr/pub/site/geopark/images/sub/sub02/01%EC%84%B1%EC%82%B0%EC%9D%BC%EC%B6%9C/sub02_img09.png" alt="streetfood" style="width:40%">
+      <h3>8. Seongsan Ilchulbong, Jeju</h3>
+      <p>Seongsan Ilchulbong Tuff Cone rose 180 meters above sea level due to a magma flow under the sea over 5,000 years ago. It was originally a separate island, but a build-up of sand and soil
+        has connected it to the main island. It is one of the UNESCO World Heritages.</p>
+        <button onclick="myFunction8()">More Info</button>
+        <div id="myDIV8" style="display: none">
+          <ul>
+            <li>Opened Hours: 07:00 - 20:00</li>
+            <li>Price: ₩5,000 for adult</li>
+            <li>Phone: 064-783-0959</li>
+          </ul>
+        </div>
+    </div>
+    <div class="place">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/4d/37/61/loved-it.jpg" alt="streetfood" style="width:40%">
+      <h3>9. Jusangjeolli cliff, Jeju</h3>
+      <p>Jusangjeoli cliff is a volcanic rock formation that many tourists are spotted to take a picture of the glorious view of this cliff. Jusangjeolli Cliff was formed due to the sudden cooling of lava from the
+         Hallasan Mountain that bursts into the sea of Jungmun, thousands of years ago. It is one of the UNESCO World Heritages.</p>
+         <button onclick="myFunction9()">More Info</button>
+         <div id="myDIV9" style="display: none">
+           <ul>
+             <li>Opened Hours: 09:00 - 18:00</li>
+             <li>Phone: 064-738-1521</li>
+           </ul>
+         </div>
+    </div>
+    <div class="place">
+      <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2658033E542CE85735" alt="streetfood" style="width:40%">
+      <h3>10. Seoraksan national park, Gangwon-do</h3>
+      <p>Seoraksan National Park is a national park in South Korea. It listed by the South Korean government with UNESCO as a tentative World Heritage site.</p>
+      <button onclick="myFunction10()">More Info</button>
+      <div id="myDIV10" style="display: none">
+        <ul>
+          <li>Price: ₩11,000 for adult</li>
+          <li>Phone: 033-801-0900</li>
+        </ul>
+      </div>
+    </div>
+    <div class="button" id="web">
+      <a href = "http://english.visitkorea.or.kr/enu/index.kto" target="_blank"><b>Korea Tourism Organization Official Website</b></a>
+    </div>
+    <div class="button" id="web">
+      <a href = "https://www.mcst.go.kr/english/index.jsp" target="_blank"><b>Ministry of Culture, Sports, and Tourism Official Website</b></a>
+    </div>
+    <div class="button" id="web">
+      <a href = "https://english.visitseoul.net//index" target="_blank"><b>VisitSeoul(Korea Tourism Organization) Official Website</b></a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="bar2">
+      <h3>&copy;Wonho Lim & Giung Lee</h3>
+    </div>
+  </footer>
+</html>
