@@ -1,0 +1,95 @@
+.button {
+    font-size: 25px;
+    text-align: center;
+    transition-duration: 0.4s;
+    width: 250px;
+    border-radius: 50px;
+    margin: 20px auto;
+    background-color: white;
+    color: orange;
+    border: 5px solid orange;
+}
+#home.button:hover {
+  background-color: #EC5800;
+}
+body {
+  background-image: url('https://i.ebayimg.com/images/g/edcAAOSw3k5dbgEq/s-l300.jpg');
+  text-align:center;
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  max-width:500px;
+  margin: auto auto;
+  text-align:center;
+  color:white;
+  background:	#EC5800;
+  padding: 5px;
+  margin: auto auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  border: 5px solid #DAA520;
+}
+h2 {
+  text-align:center;
+}
+table{
+  border: 30px outset #DAA520;
+}
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+  background:Black;
+  font-size:20px;
+}
+td{
+  background-image: url("https://img.freepik.com/free-photo/papyrus-texture_95678-79.jpg?size=626&ext=jpg");
+
+}
+img{
+  border: 5px;
+}
+.info1{
+  background-color: #DAA520;
+}
+#info1{
+  font-family: "Times New Roman", Times, serif;
+  max-width:500px;
+  margin: auto auto;
+  text-align:center;
+  color:black;
+  background:white;
+  padding: 5px;
+  margin: auto auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+#info2{
+  text-align:center;
+}
+#photo1{
+  width:300px;height:200px;
+}
+#photo2{
+  width:200px;height:200px;
+}
+.bar {
+  overflow: hidden;
+  font-size:20px;
+  bottom: 0px;
+  z-index: 5;
+  width: 20%;
+  margin: auto auto;
+}
+.bar h3 {
+  text-decoration: none;
+  color:white;
+  background-color: #EC5800;
+  border-radius: 50px;
+  border: 5px solid #DAA520;
+}
