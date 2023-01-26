@@ -13,4 +13,4 @@
 | --------- | -------------------- |---------------------------------|
 | Wonho Lim | wonholim02@gmail.com | Georgia Institute of Technology |
 
-![](https://www.publicdomainpictures.net/pictures/290000/nahled/website-development.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/3/3b/Internet_et_ses_applications.png)
