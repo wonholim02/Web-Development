@@ -7,7 +7,7 @@
 * Javascript
 * React
 
-## Contributer Profile
+## Contributer Information
 <!-- Tables -->
 | NAME      | Email                |School                           |
 | --------- | -------------------- |---------------------------------|
