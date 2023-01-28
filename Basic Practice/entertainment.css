@@ -1,0 +1,99 @@
+body{
+  background-image: url('https://www.publicdomainpictures.net/pictures/50000/velka/false-green-grass-wallpaper.jpg');
+  color:White;
+}
+h1{
+  max-width:500px;
+  margin: auto auto;
+  text-align:center;
+  color:white;
+  background-color:#1F75FE;
+  padding: 5px;
+  margin: auto auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  border: 5px solid  #00008B;
+}
+p{
+  font-family: "Times New Roman", Times, serif;
+  max-width:500px;
+  margin: auto auto;
+  text-align:center;
+  color:white;
+  background:white;
+  padding: 5px;
+  margin: auto auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.center{
+  font-family: "Times New Roman", Times, serif;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:30px;
+  text-align:center;
+  width: 70%;
+  background-image: url('https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg');
+  border: 30px outset #00008B;
+  color: gold;
+}
+table{
+  border: 30px outset #00008B;
+  color: gold;
+  font-weight: bold;
+  background-image: url('https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg');
+}
+tbody{
+  font-size:25px;
+}
+td{
+  padding-bottom:30px;
+}
+#info1{
+  text-align:center;
+  background-color: #1F75FE;
+  border: 5px solid #00008B;
+}
+#info2{
+  text-align:center;
+}
+.info1{
+  background-color: #00008B;
+}
+#home.button:hover {
+  background-color: #1F75FE;
+}
+.button {
+  font-size: 25px;
+  text-align: center;
+  transition-duration: 0.4s;
+  width: 250px;
+  border-radius: 50px;
+  margin: 20px auto;
+  background-color: white;
+  border: 5px solid #00008B;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.bar2 {
+  overflow: hidden;
+  font-size:20px;
+  bottom: 0px;
+  z-index: 5;
+  width: 20%;
+  margin: auto auto;
+}
+
+.bar2 h3 {
+  text-decoration: none;
+  color:white;
+  background-color:#1F75FE;
+  border-radius: 50px;
+  border: 5px solid #00008B;
+}
+footer{
+  text-align:center;
+}
