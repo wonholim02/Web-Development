@@ -18,4 +18,9 @@
 * Javascript
 * React
 
+## Directories
+- KSEA Project (2023)
+- KVAY Project (2020)
+- Practice (2020)
+
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3b/Internet_et_ses_applications.png)
