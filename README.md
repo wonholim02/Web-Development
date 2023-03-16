@@ -16,6 +16,7 @@
 * CSS
 * Javascript
 * React
+* Node.js
 
 ## Directories
 - KSEA Project (2023)
