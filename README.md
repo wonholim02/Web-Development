@@ -14,7 +14,7 @@
 * Node.js
 
 ## Directories
-- KSEA Project (2023)
+- KSEA-GA Project (2023)
 - KVAY Project (2020)
 - Practice (2020)
 
